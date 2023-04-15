@@ -1,2 +1,2 @@
 # 1st-CSS
-Dummy useless website using CSS
+Dummy useless website using HTML CSS
