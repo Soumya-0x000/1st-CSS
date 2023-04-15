@@ -571,9 +571,9 @@ footer h2:hover{
     font-family: 'Exo 2', sans-serif;
 }
 .footer_cntnt_flexbox:hover{
-    /* transform: rotate(360deg); */
+    transform: rotate(360deg);
     cursor: pointer;
-    transform: rotateY(360deg);
+/*     transform: rotateY(360deg); */
     border-radius: 70px;
     color: #a02e2e;
     text-shadow: 3px 4px 4px #f55dc2;
