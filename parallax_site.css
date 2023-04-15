@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header, footer{
+    margin-bottom: .5%;
+    background-image: url(https://images.alphacoders.com/101/101911.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header h1, footer h2{
+    padding-top: 5%;
+    padding-bottom: 8%;
+    color: rgb(173, 144, 241);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 350%;
+    text-shadow: 6px 8px 6px rgb(46, 4, 85);
+}
+.switch_to_hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 4px double limegreen;
+    border-radius: 20px;
+    width: 30vw;
+    height: 2vh;
+    padding: 2%;
+    color: aquamarine;
+    background-color: rgb(37, 4, 68);
+    font-size: 150%;
+}
+.fcontainer{
+    position: relative;
+    display: flex;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 2%;
+    /* background-image: url(https://images.alphacoders.com/101/101911.jpg); */
+    /* background-color: rgb(238, 184, 184); */
+    padding-bottom: .8%;
+    border-radius: 60px;
+    margin-bottom: .5%;
+    font-family: consolas;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* flex-flow: column wrap; */
+    column-gap: 1%;
+}
+.fitem{
+    /* border: 3px solid rgb(214, 253, 163); */
+    /* border-style: double; */
+    border-radius: 60px;
+    background-color: rgb(56, 2, 56);
+    /* padding-right: 0%; */
+    padding-top: .2%;
+    padding-bottom: .1%;
+    height: 27px;
+    width: 74px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(2, 109, 73, 0.534), 0 6px 20px 0 rgba(2, 90, 102, 0.212);
+}
+#fitem_5{
+    width: 85px;
+    margin-right: 1%;
+    align-self: flex-end;
+}
+#fitem_1{
+    align-self: flex-end;
+}
+#fitem_3{
+    align-self: flex-start;
+}
+link{
+    color: rgb(221, 124, 245);
+}
+a:visited{
+    color: rgb(239, 160, 255);
+} 
+a:hover{
+    color: rgb(247, 123, 73);
+} 
+a:active{
+    color: rgb(240, 82, 82);
+}
+#parallax_1 h3, #parallax_2 h3, #parallax_3 h3, #parallax_4 h3, #parallax_5 h3, #parallax_6 h3{
+    padding-top: 60%;
+    padding-bottom: 10%;
+    background-image: url(https://wallpapercave.com/wp/wp4673209.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(130, 222, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 190%;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 5px 4px rgb(123, 34, 240);
+}
+#parallax_1 p, #parallax_2 p, #parallax_3 p, #parallax_4 p, #parallax_5 p, #parallax_6 p{
+    background-color: rgb(1, 25, 44);
+    color: rgb(130, 193, 248);
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+#parallax_2 h3{
+    background-image: url(https://th.bing.com/th/id/R.d62eda84828d90d1fb5d82fd51c82be7?rik=cZggJmEM0vnlcg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2fe%2f8%2f616132.jpg&ehk=DIXuy7Uxye779zra%2b9pd5jBvqE4Dugy9LxdHGBu3920%3d&risl=&pid=ImgRaw&r=0);
+    text-shadow: 2px 5px 4px rgb(4, 45, 179);
+}
+#parallax_2 p{
+    color: rgb(130, 248, 199);
+}
+#parallax_3 h3{
+    background-image: url(https://th.bing.com/th/id/R.8cd0a6a399fea3c5a6d58ae5cbe454f9?rik=6ddzmmUYHaFIgQ&pid=ImgRaw&r=0);
+    text-shadow: 2px 5px 4px saddlebrown;
+}
+#parallax_3 p{
+    color: rgb(186, 245, 108);
+}
+#parallax_4 h3{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/09/space-constellation-stars-astrology-4k_1536016626.jpg);
+    text-shadow: 2px 5px 4px rgb(177, 20, 240);
+}
+#parallax_4 p{
+    color: rgb(189, 153, 247);
+}
+#parallax_5 h3{
+    background-image: url(https://images8.alphacoders.com/932/thumb-1920-932568.jpg);
+    text-shadow: 2px 5px 4px saddlebrown;
+}
+#parallax_5 p{
+    color: rgb(248, 130, 199);
+}
+#parallax_6 h3{
+    background-image: url(https://wallpapercave.com/wp/wp6689718.jpg);
+    text-shadow: 2px 5px 4px rgb(4, 146, 23);
+}
+#parallax_6 p{
+    color: rgb(130, 193, 248);
+}
+footer{
+    margin-top: .5%;
+    margin-bottom: 0%;
+    background-image: url(https://th.bing.com/th/id/R.22ecbb4bf04345139ef5b3403e4ae535?rik=kSbze9by0rSRJg&pid=ImgRaw&r=0);
+}
