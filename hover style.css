@@ -591,3 +591,51 @@ footer h2:hover{
     flex-grow: .4;
     text-align: center;
 }
+.link_parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: inherit;
+    height: 11vh; 
+    font-family: 'Graduate', cursive;
+    font-size: 200%;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border: 6px double #e41b0d;
+    border-radius: 10px;
+    color: #71068b;
+    text-shadow: 3px 4px 4px #f88ed5;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1.5%;   
+    margin-top: 1%;
+}
+
+.fancy-button {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   font-size: 70%;
+   font-weight: bold;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+}
+.fancy-button:before {
+   content: '';
+   position: absolute;
+   top: -100%;
+   left: -100%;
+   width: 200%;
+   height: 200%;
+   background-color: rgba(255, 255, 255, 0.2);
+   transform: rotate(45deg);
+   z-index: -1;
+   transition: transform 0.3s ease-in-out;
+}
+.fancy-button:hover:before {
+   transform: translate(50%, 50%) rotate(45deg);
+}
